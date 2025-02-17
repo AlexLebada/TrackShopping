@@ -1,0 +1,2 @@
+{'messages': [], 'input': 'As an example, you have as input an image of a receipt. How would you store into database the main elements of this receipt', 'plan': '', 'past_steps': []}
+----

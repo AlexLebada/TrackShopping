@@ -1,0 +1,15 @@
+{'supervisor': {'plan': [Step(task='Extract the main elements from the receipt image using available tools.', agent='accountant'), Step(task='Parse the extracted data to identify date, items, prices, and total.', agent='accountant'), Step(task='Store the extracted elements into the database.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Extract the main elements from the receipt image using available tools.', AIMessage(content='Please provide the filename of the receipt image that you would like me to extract the main elements from.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 22, 'prompt_tokens': 493, 'total_tokens': 515, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-a27e4e84-f733-4841-b4cf-bacb4da61c2f-0', usage_metadata={'input_tokens': 493, 'output_tokens': 22, 'total_tokens': 515, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'plan': [Step(task='Obtain the filename of the receipt image from the user.', agent='supervisor'), Step(task='Extract the main elements from the receipt image using available tools.', agent='accountant'), Step(task='Parse the extracted data to identify date, items, prices, and total.', agent='accountant'), Step(task='Store the extracted elements into the database.', agent='accountant')]}}
+----
+{'supervisor': {'plan': [Step(task='Obtain the filename of the receipt image from the user.', agent='supervisor'), Step(task='Extract the main elements from the receipt image using available tools.', agent='accountant'), Step(task='Parse the extracted data to identify date, items, prices, and total.', agent='accountant'), Step(task='Store the extracted elements into the database.', agent='accountant')]}}
+----
+{'supervisor': {'response': 'Please provide the filename of the receipt image that you wish to process.'}}
+----
+Total Tokens: 21683
+Prompt Tokens: 5069
+Completion Tokens: 16614
+Total Cost (USD): $1.05560715
+Query:As an example, you have as input an image of a receipt. How would you store into database the main elements of this receiptReasoning model:o1-preview

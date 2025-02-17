@@ -1,0 +1,6 @@
+{'agent': {'messages': [AIMessage(content='Please provide the filename of the document you would like to extract data from.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 225, 'total_tokens': 242, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_13eed4fce1', 'finish_reason': 'stop', 'logprobs': None}, id='run-3bd54def-9c83-4d1c-9c2d-fa49156b4f9e-0', usage_metadata={'input_tokens': 225, 'output_tokens': 17, 'total_tokens': 242, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})]}}
+----
+Total Tokens: 242
+Prompt Tokens: 225
+Completion Tokens: 17
+Total Cost (USD): $4.395e-05

@@ -1,0 +1,36 @@
+members = ["researcher", "programmer"]
+
+
+
+supervisor_prompt = ChatPromptTemplate.from_template(
+        """You are a supervisor which overview the work done by the following assistants:"""
+        f"{members}"
+        """When an objective is given, return a simple step by step plan.\
+        This plan is divided into necessary tasks to accomplish the objective and return the correct answer. Don't add what is not necessary.\
+         Only the final step of the plan it gives the final answer. Be aware that each step has the information needed and dont skip steps
+        
+        Your objective is this:
+        {input}
+        
+        Your original plan is this:
+        {plan}
+        
+        The following steps were made:
+        {past_steps}
+        
+        Update your plan accordingly. If no more steps are needed and you can return to the user, then respond with FINISH. 
+        Otherwise, fill out the plan. Only add steps to the plan that still NEED to be done. 
+        Do not return previously done steps as part of the plan.
+        If you repeat more than twice the same step or an agents has an error return the response with HELP."""
+)
+
+
+programmer_prompt = """You are a coding assistant with expertise in python language. Your only responsibilities are to build programs with the code and test it. 
+            If anything else is asked from you just inform you're not allowed.
+            Provide code by the user request, as functions to be reused if necessary,  with the needed imports, only the code.
+            Every function created should have a description of args input and output so that another AI understands what it does.
+             Use the tools provided: create_file, test_file."""
+
+
+
+researcher_prompt = """You are a helpful AI assistant which you're allowed only to do research."""

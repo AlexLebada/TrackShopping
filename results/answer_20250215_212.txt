@@ -1,0 +1,6 @@
+{'agent': {'messages': [AIMessage(content='Could you please provide more details about your car? For example, the make, model, year, or any specific information you would like to discuss or record.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 34, 'prompt_tokens': 303, 'total_tokens': 337, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-6635c339-fcc7-46a9-a4b1-91d6cd0d54a8-0', usage_metadata={'input_tokens': 303, 'output_tokens': 34, 'total_tokens': 337, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})]}}
+----
+Total Tokens: 337
+Prompt Tokens: 303
+Completion Tokens: 34
+Total Cost (USD): $6.585e-05

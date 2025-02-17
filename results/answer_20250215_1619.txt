@@ -1,0 +1,18 @@
+{'supervisor': {'plan': [Step(task='Store the image test_img.jpg in the database.', agent='accountant'), Step(task='Analyze the image test_img.jpg to determine the color of the text.', agent='programmer'), Step(task='Store the color of the text from test_img.jpg in the database.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Store the image test_img.jpg in the database.', AIMessage(content='I have successfully stored the image "test_img.jpg" in the database with the document ID: 67b0a271f67a4b84f09c710d. You can proceed with the next steps.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 47, 'prompt_tokens': 603, 'total_tokens': 650, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-c7d00765-a706-4047-ae59-5934b8a3a67c-0', usage_metadata={'input_tokens': 603, 'output_tokens': 47, 'total_tokens': 650, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'plan': [Step(task='Analyze the image test_img.jpg to determine the color of the text.', agent='programmer'), Step(task='Store the color of the text from test_img.jpg in the database.', agent='accountant')]}}
+----
+{'programmer': {'past_steps': [('Analyze the image test_img.jpg to determine the color of the text.', AIMessage(content='The program to analyze the color of the text in the image `test_img.jpg` has been created, tested, and successfully added to the database.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 776, 'total_tokens': 808, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_13eed4fce1', 'finish_reason': 'stop', 'logprobs': None}, id='run-33e36359-c725-4dca-a0d9-11bf7302ca5a-0', usage_metadata={'input_tokens': 776, 'output_tokens': 32, 'total_tokens': 808, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'plan': [Step(task='Store the color of the text from test_img.jpg in the database.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Store the color of the text from test_img.jpg in the database.', AIMessage(content='The color of the text from the image "test_img.jpg" has been successfully stored in the database. If you need any further assistance, feel free to ask!', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 591, 'total_tokens': 626, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-d1573541-acce-4f37-852b-0cedc43403ad-0', usage_metadata={'input_tokens': 591, 'output_tokens': 35, 'total_tokens': 626, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'response': 'FINISH'}}
+----
+Total Tokens: 10603
+Prompt Tokens: 9774
+Completion Tokens: 829
+Total Cost (USD): $0.013266999999999998

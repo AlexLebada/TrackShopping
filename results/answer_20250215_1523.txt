@@ -1,0 +1,14 @@
+{'supervisor': {'plan': [Step(task='Extract the main elements (e.g., date, total amount, items, etc.) from the receipt image.', agent='accountant'), Step(task='Store the extracted elements into the database.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Extract the main elements (e.g., date, total amount, items, etc.) from the receipt image.', AIMessage(content='Please provide the filename of the receipt image so I can extract the main elements from it.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 20, 'prompt_tokens': 467, 'total_tokens': 487, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-d2871400-09c6-48f8-b3dc-bdcc30fe52c7-0', usage_metadata={'input_tokens': 467, 'output_tokens': 20, 'total_tokens': 487, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'plan': [Step(task='Store the extracted elements into the database.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Store the extracted elements into the database.', AIMessage(content='Please provide the extracted elements that you would like to store in the database, including any relevant details such as filename, description, type, and any other necessary information.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 35, 'prompt_tokens': 423, 'total_tokens': 458, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-6ba152b7-e513-4405-a195-e904418f331b-0', usage_metadata={'input_tokens': 423, 'output_tokens': 35, 'total_tokens': 458, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'response': 'HELP'}}
+----
+Total Tokens: 3447
+Prompt Tokens: 3307
+Completion Tokens: 140
+Total Cost (USD): $0.007058999999999999

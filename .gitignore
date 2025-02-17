@@ -1,0 +1,21 @@
+# Virtual environment directories
+venv/
+for_github/
+env/
+.venv/
+venv2/
+env.bak/
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+test.py
+API_integration/GENERAL_KEYS.py
+Getting_started_Llama/
+
+documentation/
+credentials.py

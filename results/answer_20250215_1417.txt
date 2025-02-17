@@ -1,0 +1,14 @@
+{'supervisor': {'plan': [Step(task='Check with the accountant agent to see if it can process and store the main elements of the receipt from the image.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Check with the accountant agent to see if it can process and store the main elements of the receipt from the image.', AIMessage(content='I can process and store the main elements of the receipt from the image. Please provide the receipt image so I can proceed with the extraction and storage.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 32, 'prompt_tokens': 397, 'total_tokens': 429, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-4a521799-bcbc-408c-8a58-d401d32d5998-0', usage_metadata={'input_tokens': 397, 'output_tokens': 32, 'total_tokens': 429, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'plan': [Step(task='Provide the receipt image to the accountant agent for processing and storage.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Provide the receipt image to the accountant agent for processing and storage.', AIMessage(content='Please provide the receipt image that you would like to process and store.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 16, 'prompt_tokens': 377, 'total_tokens': 393, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-1e8dcf40-98b5-4335-93bc-05772ce0b7c8-0', usage_metadata={'input_tokens': 377, 'output_tokens': 16, 'total_tokens': 393, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'response': 'FINISH'}}
+----
+Total Tokens: 3155
+Prompt Tokens: 3030
+Completion Tokens: 125
+Total Cost (USD): $0.0065549

@@ -1,0 +1,13 @@
+{'supervisor': {'plan': [Step(task='Explain how we store a receipt in the system.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Explain how we store a receipt in the system.', AIMessage(content='To store a receipt in the system, we follow a structured process:\n\n1. **Metadata Storage**: First, we capture the metadata of the receipt, which includes details like the filename, a description of the document, and its type (e.g., image, audio, text). This helps in organizing and retrieving the document later.\n\n2. **Document ID Retrieval**: After storing the metadata, we retrieve a unique document ID that will be associated with the receipt.\n\n3. **Receipt Data Addition**: Finally, we add the actual receipt data into the database. This includes specific details such as the user, date, type of receipt, items purchased (fruits and vegetables), the shop where the purchase was made, the document ID, and the total cost.\n\nThis systematic approach ensures that all relevant information is captured and stored efficiently for future reference.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 173, 'prompt_tokens': 450, 'total_tokens': 623, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-67e4293c-8d8c-47ba-a7a5-59e027e469e5-0', usage_metadata={'input_tokens': 450, 'output_tokens': 173, 'total_tokens': 623, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'response': 'FINISH'}}
+----
+Total Tokens: 7481
+Prompt Tokens: 2637
+Completion Tokens: 4844
+Total Cost (USD): $0.3132363
+
+
+Note: this is with o1-preview

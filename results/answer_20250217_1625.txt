@@ -1,0 +1,10 @@
+{'supervisor': {'plan': [Step(task='Validate the receipt data.', agent='accountant'), Step(task='Store the validated receipt data into the database.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Validate the receipt data.', AIMessage(content='Please provide the receipt data that needs to be validated, including details such as the date, shop place, total cost, and items (fruits and vegetables).', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 34, 'prompt_tokens': 457, 'total_tokens': 491, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-ac929d24-3000-4050-87fd-54d98a58514c-0', usage_metadata={'input_tokens': 457, 'output_tokens': 34, 'total_tokens': 491, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'response': 'Please provide the receipt data that needs to be validated, including details such as the date, shop place, total cost, and items.'}}
+----
+Total Tokens: 5937
+Prompt Tokens: 2500
+Completion Tokens: 3437
+Total Cost (USD): $0.04705395

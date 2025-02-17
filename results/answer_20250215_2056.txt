@@ -1,0 +1,2 @@
+{'messages': [], 'input': 'how would you store a receipt ?', 'plan': '', 'past_steps': []}
+----
