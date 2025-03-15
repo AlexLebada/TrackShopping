@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67afd17033ec71b34ab4290c"
+  },
+  "user": "Giorgio",
+  "date": "2023-10-05",
+  "fruits": [
+    "bananas"
+  ],
+  "vegetables": [],
+  "shop_place": "unknown",
+  "document_id": "doc_001",
+  "total_cost": 20
+},
+{
+  "_id": {
+    "$oid": "67afd6bb0705d14636aa29e2"
+  },
+  "user": "Giorgio",
+  "date": "2023-10-05",
+  "fruits": [
+    "bananas"
+  ],
+  "vegetables": [],
+  "shop_place": "unknown",
+  "document_id": "67afd6b90705d14636aa29e0",
+  "total_cost": "20 RON"
+},
+{
+  "_id": {
+    "$oid": "67b0a28cf67a4b84f09c7113"
+  },
+  "user": "Giorgio",
+  "date": "2023-10-01",
+  "fruits": [],
+  "vegetables": [],
+  "shop_place": "Mega Image",
+  "document_id": "67b0a288f67a4b84f09c7111",
+  "total_cost": "unknown"
+}]

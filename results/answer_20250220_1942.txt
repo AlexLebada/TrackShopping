@@ -1,0 +1,6 @@
+{'agent': {'messages': [AIMessage(content="I'm not allowed to provide the current datetime.", additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 11, 'prompt_tokens': 295, 'total_tokens': 306, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_f9f4fb6dbf', 'finish_reason': 'stop', 'logprobs': None}, id='run-81b4c8cd-8618-453f-a9cb-272815d89d6a-0', usage_metadata={'input_tokens': 295, 'output_tokens': 11, 'total_tokens': 306, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})]}}
+----
+Total Tokens: 306
+Prompt Tokens: 295
+Completion Tokens: 11
+Total Cost (USD): $0.0008475

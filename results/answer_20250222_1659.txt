@@ -1,0 +1,12 @@
+{'supervisor': {'plan': [Step(task='Search the external sources for the current price of a Timisoreana beer.', agent='researcher')]}}
+----
+{'researcher': {'past_steps': [('Search the external sources for the current price of a Timisoreana beer.', AIMessage(content='Here are the results for the price of Timisoreana beer in Bucharest:\n\n1. **Carrefour** - Timisoreana Beer - Price not listed (you may need to check in-store or online for exact pricing).\n2. **Mega Image** - Timisoreana Beer - Price not listed (check in-store or online for details).\n3. **Auchan** - Timisoreana Beer - Price not listed (visit the store or their website for accurate pricing).\n\nAdditionally, online sources suggest that the average price for Timisoreana beer in Europe is approximately $3 (around 14 RON) for a 750ml bottle. However, local prices in Bucharest may vary.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 146, 'prompt_tokens': 742, 'total_tokens': 888, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-11-20', 'system_fingerprint': 'fp_4dd9e4e381', 'finish_reason': 'stop', 'logprobs': None}, id='run-0ec18bad-480c-48aa-ae4c-e4f447d533b5-0', usage_metadata={'input_tokens': 742, 'output_tokens': 146, 'total_tokens': 888, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'response': 'FINISH'}}
+----
+Total Tokens: 4267
+Prompt Tokens: 3954
+Completion Tokens: 313
+Total Cost (USD): $0.013015
+Query:how much does a timisoreana beer cost ?
+Reasoning model:gpt-4o

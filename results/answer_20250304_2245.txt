@@ -1,0 +1,8 @@
+{'supervisor': {'response': 'HELP'}}
+----
+Total Tokens: 2250
+Prompt Tokens: 873
+Completion Tokens: 1377
+Total Cost (USD): $0.019143
+Query:return HELP in your response
+Reasoning model:o1-mini

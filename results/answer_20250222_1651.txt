@@ -1,0 +1,12 @@
+{'supervisor': {'plan': [Step(task='Retrieve the current cost of a Timisoreana beer', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Retrieve the current cost of a Timisoreana beer', AIMessage(content='The current cost of a Timisoreana beer is $45.34, based on the most recent data available.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 26, 'prompt_tokens': 744, 'total_tokens': 770, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-11-20', 'system_fingerprint': 'fp_4dd9e4e381', 'finish_reason': 'stop', 'logprobs': None}, id='run-5f61081a-c6c0-48e2-baf2-a940bbdcd551-0', usage_metadata={'input_tokens': 744, 'output_tokens': 26, 'total_tokens': 770, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'response': 'FINISH'}}
+----
+Total Tokens: 5090
+Prompt Tokens: 3279
+Completion Tokens: 1811
+Total Cost (USD): $0.0308475
+Query:how much does a timisoreana beer cost ?
+Reasoning model:o1-mini

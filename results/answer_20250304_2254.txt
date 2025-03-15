@@ -1,0 +1,10 @@
+{'supervisor': {'response': 'HELP'}}
+----
+{'developer': {'response': 'There is a problem.An issue is raised for developer'}}
+----
+Total Tokens: 1866
+Prompt Tokens: 873
+Completion Tokens: 993
+Total Cost (USD): $0.014535
+Query:return HELP in your response
+Reasoning model:o1-mini

@@ -1,0 +1,65 @@
+{
+    "yearly_cost": {
+        "name": "yearly_cost",
+        "description": "result of total amount of spending per current year",
+        "value": 45.34,
+        "args": "",
+        "function": "get_receipts_info",
+        "update": "daily",
+        "display": 0
+    },
+    "monthly_cost": {
+        "name": "monthly_cost",
+        "description": "result of  total amount of spending last 2 months",
+        "value": 45.34,
+        "args": "",
+        "function": "get_receipts_info",
+        "update": "daily",
+        "display": 0
+    },
+    "daily_cost": {
+        "name": "daily_cost",
+        "description": "result of total amount of spending today",
+        "value": 5,
+        "args": "(2,3)",
+        "function": "sum_two_numbers",
+        "update": "never",
+        "display": 1
+    },
+    "first_2_days_previous_month_cost": {
+        "name": "first_2_days_previous_month_cost",
+        "description": "result of total amount of spending first 2 days of the previous month",
+        "value": 0,
+        "args": "receipts",
+        "function": "get_periodical_cost",
+        "update": "never",
+        "display": 0
+    },
+    "weekly_cost": {
+        "name": "weekly_cost",
+        "description": "calculates total amount of spending for the current week",
+        "value": 0,
+        "args": "('receipts', '2025-02-22', '2025-02-28', 'Giorgio')",
+        "function": "get_periodical_cost",
+        "update": "daily",
+        "display": 1
+    },
+    "total_spending_mega_image": {
+        "name": "total_spending_mega_image",
+        "description": "calculates total spending at Mega Image",
+        "value": 90.68,
+        "args": "('receipts', 'Mega Image', 'Giorgio')",
+        "function": "get_total_cost_by_shop",
+        "update": "daily",
+        "display": 1
+    },
+    "total_spending_auchan": {
+        "name": "total_spending_auchan",
+        "description": "calculates total spending at Auchan",
+        "value": 0,
+        "args": "('receipts', 'Auchan', 'Giorgio')",
+        "function": "get_total_cost_by_shop",
+        "update": "daily",
+        "display": 1
+    }
+}

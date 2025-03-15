@@ -1,0 +1,10 @@
+{'supervisor': {'response': 'RECURSION_LIMIT'}}
+----
+{'developer': {'response': 'There is a problem.An issue is raised for developer'}}
+----
+Total Tokens: 0
+Prompt Tokens: 0
+Completion Tokens: 0
+Total Cost (USD): $0.0
+Query:how many times i bought from mega image
+Reasoning model:o1-mini

@@ -1,0 +1,9 @@
+action=InputData(description='receipt from supermarket', date='2025-03-02', type='image', fruits=[], vegetables=[], shop_place='MEGA IMAGE', total_cost=15.95, images_similarity='only one image provided')
+ model: gpt-4.5-preview-2025-02-27
+----
+Total Tokens: 1479
+Prompt Tokens: 1426
+Completion Tokens: 53
+Audio Tokens: 0
+Image Tokens: 0
+Total Cost (USD): $0.0

@@ -1,0 +1,12 @@
+{'supervisor': {'plan': [Step(task='Retrieve total spending data from the database for purchases made at Auchan place.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Retrieve total spending data from the database for purchases made at Auchan place.', AIMessage(content='\n\nHow would you like me to proceed with retrieving your spending data at Auchan?', additional_kwargs={}, response_metadata={'id': 'msg_01Jin6zG1tzuNJhQCkASbfh1', 'model': 'claude-3-7-sonnet-20250219', 'stop_reason': 'end_turn', 'stop_sequence': None, 'usage': {'cache_creation_input_tokens': 0, 'cache_read_input_tokens': 0, 'input_tokens': 906, 'output_tokens': 23}}, id='run-843b0a71-2aca-4f41-aac3-e65197e8f663-0', usage_metadata={'input_tokens': 906, 'output_tokens': 23, 'total_tokens': 929, 'input_token_details': {'cache_read': 0, 'cache_creation': 0}}))]}}
+----
+{'supervisor': {'response': 'HELP'}}
+----
+Total Tokens: 3000
+Prompt Tokens: 2903
+Completion Tokens: 97
+Total Cost (USD): $0.0057325
+Query:give me the total spending from Auchan place.
+Reasoning model:gpt-4o

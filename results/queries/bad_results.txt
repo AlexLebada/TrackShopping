@@ -1,0 +1,13 @@
+queries[6]
+-answer_20250226_11: N-a putut testa fara sa codeze inainte, dar cred ca asa ar trebui bazat pe prompt
+
+
+queries[10]
+-answer_20250301_2039:
+-answer_20250301_2052:
+-answer_20250301_2112: la toate 3, programmer-ul imi face o functie unde returneaza un dict cu valori si nu ma ajuta pentru afisarea lor
+                    o sa schimb promptul
+
+queries[11]
+-answer_20250301_2228:bookkeeper-ul nu a folosit functia creata de programmer pt ca gresisem sintaxa de calcul a dimensiunii fisierului
+                        display.json

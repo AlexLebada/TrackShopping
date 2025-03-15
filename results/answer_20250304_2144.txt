@@ -1,0 +1,4 @@
+{'supervisor': {'plan': [Step(task='Retrieve the number of purchases the user has made from mega image', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Retrieve the number of purchases the user has made from mega image', AIMessage(content=[], additional_kwargs={}, response_metadata={'id': 'msg_017Kp8rYQKTiwATbHRYPBTjG', 'model': 'claude-3-7-sonnet-20250219', 'stop_reason': 'end_turn', 'stop_sequence': None, 'usage': {'cache_creation_input_tokens': 0, 'cache_read_input_tokens': 0, 'input_tokens': 1396, 'output_tokens': 3}}, id='run-ccf2e4a1-6b62-4eb1-960e-17600f95d967-0', usage_metadata={'input_tokens': 1396, 'output_tokens': 3, 'total_tokens': 1399, 'input_token_details': {'cache_read': 0, 'cache_creation': 0}}))]}}
+----

@@ -28,3 +28,12 @@ supervisor_prompt = ChatPromptTemplate.from_template(
         Do not return previously done steps as part of the plan.
         If you repeat more than twice the same step, an assistant has an error or you need more details, then return the response with HELP."""
 )
+
+
+
+programmer_prompt = """You are a smart coding assistant with expertise in python language. Your only responsibilities 
+                        are to build query functions,provide the code and test it. 
+                        If anything else is asked from you just inform you're not allowed.
+                        Provide code by the request, as functions to be reused if necessary, with the needed imports, 
+                        only the code. Every function created should have a description of args input and output so 
+                        that another AI understands what it does."""

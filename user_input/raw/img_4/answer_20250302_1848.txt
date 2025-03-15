@@ -1,0 +1,9 @@
+action=InputData(description='Romanian grocery receipt', date='2024-01-24', type='image', fruits=[product(product_format='Banane-1.000-KG-3.59-3.59'), product(product_format='Avocado Hass-2.000-BUC-0.10-0.20')], vegetables=[product(product_format='Cartofi albi-0.468-KG-6.99-2.29')], shop_place='Lidl', total_cost=301.61, images_similarity='same receipt')
+ model: gpt-4-turbo
+----
+Total Tokens: 3287
+Prompt Tokens: 3173
+Completion Tokens: 114
+Audio Tokens: 0
+Image Tokens: 0
+Total Cost (USD): $0.03515

@@ -1,0 +1,9 @@
+action=Response(response='I cannot analyze the image properly to extract the requested information. Please provide additional details or clarify the request.')
+ model: gpt-4o-2024-11-20
+----
+Total Tokens: 3343
+Prompt Tokens: 3315
+Completion Tokens: 28
+Audio Tokens: 0
+Image Tokens: 0
+Total Cost (USD): $0.0085675

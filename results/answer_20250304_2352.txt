@@ -1,0 +1,12 @@
+{'supervisor': {'plan': [Step(task='Retrieve the number of times the user bought from mega image', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Retrieve the number of times the user bought from mega image', AIMessage(content=[], additional_kwargs={}, response_metadata={'id': 'msg_01W111Gt6cZmVMUakRjnxZsg', 'model': 'claude-3-7-sonnet-20250219', 'stop_reason': 'end_turn', 'stop_sequence': None, 'usage': {'cache_creation_input_tokens': 0, 'cache_read_input_tokens': 0, 'input_tokens': 1394, 'output_tokens': 3}}, id='run-73e178c0-b2ec-4fd2-b673-54d84118dda9-0', usage_metadata={'input_tokens': 1394, 'output_tokens': 3, 'total_tokens': 1397, 'input_token_details': {'cache_read': 0, 'cache_creation': 0}}))]}}
+----
+{'supervisor': {'response': 'FINISH'}}
+----
+Total Tokens: 5818
+Prompt Tokens: 3351
+Completion Tokens: 2467
+Total Cost (USD): $0.035439000000000005
+Query:how many times i bought from mega image
+Reasoning model:o1-mini

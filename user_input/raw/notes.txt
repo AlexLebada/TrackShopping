@@ -1,0 +1,10 @@
+pt img_1, daca pastrez imag originea, gpt nu capabil sa extraga datele dorite
+
+test_3: n-a luat data pt ca nu apare
+
+
+img_4:
+
+
+img_5: data e scrisa gresit de catre modelele: 4o-0806, 4o, 4o-mini, pare ca cu 4-2025-02-27 merg doar ca proceseaza greu.
+

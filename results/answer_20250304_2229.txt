@@ -1,0 +1,12 @@
+{'supervisor': {'plan': [Step(task='Retrieve the number of purchases from Mega Image.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Retrieve the number of purchases from Mega Image.', AIMessage(content="Based on the data I've retrieved, I can now provide you with the information about your purchases from Mega Image:\n\n**Number of purchases from Mega Image: 2**\n\nThe purchases were made on:\n1. October 10, 2024 (total cost: 45.34)\n2. December 12, 2023 (total cost: 45.34)\n\nWould you like to know more details about these purchases, such as what items were purchased or a breakdown of the costs?", additional_kwargs={}, response_metadata={'id': 'msg_01D3g6xLuevGceABhWQe3oJJ', 'model': 'claude-3-7-sonnet-20250219', 'stop_reason': 'end_turn', 'stop_sequence': None, 'usage': {'cache_creation_input_tokens': 0, 'cache_read_input_tokens': 0, 'input_tokens': 2720, 'output_tokens': 113}}, id='run-b5f0f5d5-3500-48cd-bfc7-e3d6558cfc6d-0', usage_metadata={'input_tokens': 2720, 'output_tokens': 113, 'total_tokens': 2833, 'input_token_details': {'cache_read': 0, 'cache_creation': 0}}))]}}
+----
+{'supervisor': {'response': 'FINISH'}}
+----
+Total Tokens: 14548
+Prompt Tokens: 11424
+Completion Tokens: 3124
+Total Cost (USD): $0.033525
+Query:how many times i bought from mega image
+Reasoning model:o1-mini

@@ -1,0 +1,9 @@
+action=InputData(description='Receipt', date='2023-10-05', type='image', fruits=[], vegetables=[], shop_place='Mega Image', total_cost=11.87, images_similarity='Not applicable, only one image provided.')
+ model: gpt-4o
+----
+Total Tokens: 1479
+Prompt Tokens: 1425
+Completion Tokens: 54
+Audio Tokens: 0
+Image Tokens: 0
+Total Cost (USD): $0.0041025

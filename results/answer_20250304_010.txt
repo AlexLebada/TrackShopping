@@ -1,0 +1,12 @@
+{'supervisor': {'plan': [Step(task="Retrieve all transactions related to the vendor 'Mega Image' from the database.", agent='accountant'), Step(task='Count the number of distinct purchases retrieved in the previous step.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [("Retrieve all transactions related to the vendor 'Mega Image' from the database.", AIMessage(content="\n\nI'll help you retrieve all transactions related to the vendor 'Mega Image' from the database. Let me do this step by step.", additional_kwargs={}, response_metadata={'id': 'msg_01EgpvhkvAUcgAYRnCHpD48e', 'model': 'claude-3-7-sonnet-20250219', 'stop_reason': 'end_turn', 'stop_sequence': None, 'usage': {'cache_creation_input_tokens': 0, 'cache_read_input_tokens': 0, 'input_tokens': 1426, 'output_tokens': 33}}, id='run-a755eacd-136a-4aab-93bf-af6d2ec28673-0', usage_metadata={'input_tokens': 1426, 'output_tokens': 33, 'total_tokens': 1459, 'input_token_details': {'cache_read': 0, 'cache_creation': 0}}))]}}
+----
+{'supervisor': {'plan': [Step(task='Count the number of distinct purchases retrieved in the previous step.', agent='accountant')]}}
+----
+{'accountant': {'past_steps': [('Count the number of distinct purchases retrieved in the previous step.', AIMessage(content='\nFeel free to ask me questions so that I can help you complete this task.', additional_kwargs={}, response_metadata={'id': 'msg_01Ufep4S4FjLJmxbWRzvxmwE', 'model': 'claude-3-7-sonnet-20250219', 'stop_reason': 'end_turn', 'stop_sequence': None, 'usage': {'cache_creation_input_tokens': 0, 'cache_read_input_tokens': 0, 'input_tokens': 1392, 'output_tokens': 20}}, id='run-71ca667b-fe48-4e3b-b5a4-197ca0c9602c-0', usage_metadata={'input_tokens': 1392, 'output_tokens': 20, 'total_tokens': 1412, 'input_token_details': {'cache_read': 0, 'cache_creation': 0}}))]}}
+----
+{'supervisor': {'response': 'ERR_TEST'}}
+----
+{'developer': {'response': 'An issue is raised for developer'}}
+----

@@ -1,0 +1,6 @@
+{'agent': {'messages': [AIMessage(content='```python\ndef sum_two_numbers(a: float, b: float) -> float:\n    """\n    Sums two numbers.\n\n    Args:\n        a (float): The first number.\n        b (float): The second number.\n\n    Returns:\n        float: The sum of the two numbers.\n    """\n    return a + b\n```', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 71, 'prompt_tokens': 286, 'total_tokens': 357, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_00428b782a', 'finish_reason': 'stop', 'logprobs': None}, id='run-c34ed005-6463-4031-b30a-232b34e054e0-0', usage_metadata={'input_tokens': 286, 'output_tokens': 71, 'total_tokens': 357, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})]}}
+----
+Total Tokens: 357
+Prompt Tokens: 286
+Completion Tokens: 71
+Total Cost (USD): $8.549999999999999e-05

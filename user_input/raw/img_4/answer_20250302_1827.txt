@@ -1,0 +1,9 @@
+action=InputData(description='Receipt', date='2023-12-30', type='image', fruits=[product(product_format='Banane-1.000-BUC-3.59-3.59'), product(product_format='Lamai-1.000-BUC-3.29-3.27'), product(product_format='Avocado Hass-2.000-BUC-0.10-16.47')], vegetables=[product(product_format='Ridichi rosii punga-0.908-KG-6.99-6.35'), product(product_format='Cartofi albi-0.468-KG-6.99-2.29'), product(product_format='Castraveti Fabio-1.000-BUC-1.99-1.99')], shop_place='Lidl', total_cost=301.61, images_similarity='Same receipt')
+ model: gpt-4o-2024-08-06
+----
+Total Tokens: 3495
+Prompt Tokens: 3315
+Completion Tokens: 180
+Audio Tokens: 0
+Image Tokens: 0
+Total Cost (USD): $0.0100875

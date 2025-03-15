@@ -1,5 +1,0 @@
-1.As an example, you have as input an image of a receipt. How would you store into database the main elements of this receipt
-
-	Nu poate raspunde teoretic.
-	In mod normal, as descrie pasii pe care ii poate face aplicatia si ii returneaza userului.
-

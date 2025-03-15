@@ -1,0 +1,9 @@
+answer_20250225_1832 for queries[0]: interogheaza cum trebuie db, cu termenii potriviti
+answer_20250226_18 for queries[7]: Nu acceseaza alte date decat userul selectat, dar intreaba legat de asta...
+
+queries[10]
+-answer_20250301_2223: programatorul face querie-ul cum trebuie si ce returneaza e conform, daca exista deja
+
+
+queries[11]
+-answer_20250301_2247: acum a facut itemul de afisare pt ce a cerut userul

@@ -13,9 +13,13 @@ __pycache__/
 *.pyo
 *.pyd
 
-test.py
+unused/test.py
 API_integration/GENERAL_KEYS.py
 Getting_started_Llama/
 
-documentation/
+
 credentials.py
+test_streamlit/
+unused/test_agentic_retriever.py
+unused/
+documentation_2/

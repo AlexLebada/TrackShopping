@@ -1,0 +1,6 @@
+{'supervisor': {'plan': [Step(task="Retrieve the user's purchase history from the database.", agent='accountant'), Step(task="Filter the purchase history to count the number of transactions made from 'Mega Image'.", agent='accountant')]}}
+----
+{'accountant': {'past_steps': [("Retrieve the user's purchase history from the database.", AIMessage(content=[], additional_kwargs={}, response_metadata={'id': 'msg_01XgvwvGPLKjuPGbvkkxXACQ', 'model': 'claude-3-7-sonnet-20250219', 'stop_reason': 'end_turn', 'stop_sequence': None, 'usage': {'cache_creation_input_tokens': 0, 'cache_read_input_tokens': 0, 'input_tokens': 1419, 'output_tokens': 3}}, id='run-aa74b821-71c7-472d-9428-de4a9fe1ccdb-0', usage_metadata={'input_tokens': 1419, 'output_tokens': 3, 'total_tokens': 1422, 'input_token_details': {'cache_read': 0, 'cache_creation': 0}}))]}}
+----
+{'supervisor': {'plan': [Step(task="Filter the purchase history to count the number of transactions made from 'Mega Image'.", agent='accountant')]}}
+----

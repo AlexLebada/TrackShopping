@@ -1,0 +1,16 @@
+{'supervisor': {'plan': [Step(task="Check the user's purchase history for any records of Timisoreana beer and retrieve the cost.", agent='accountant'), Step(task='If no data is found by the accountant, research the current price of Timisoreana beer from external sources.', agent='researcher')]}}
+----
+{'accountant': {'past_steps': [("Check the user's purchase history for any records of Timisoreana beer and retrieve the cost.", AIMessage(content="I have checked the user's purchase history for the current year, but there is no specific record of Timisoreana beer. If needed, the next step can be taken to research its current price externally.", additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 43, 'prompt_tokens': 837, 'total_tokens': 880, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-11-20', 'system_fingerprint': 'fp_4dd9e4e381', 'finish_reason': 'stop', 'logprobs': None}, id='run-31115e13-5327-4255-a446-e9bc5209c8b4-0', usage_metadata={'input_tokens': 837, 'output_tokens': 43, 'total_tokens': 880, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'plan': [Step(task='Research the current price of Timisoreana beer from external sources.', agent='researcher')]}}
+----
+{'researcher': {'past_steps': [('Research the current price of Timisoreana beer from external sources.', AIMessage(content='Here are the current prices for Timisoreana beer:\n\n1. Wine-Searcher - Timisoreana Beer (750ml) - $3 (approx. RON 14.20)\n2. McFarland Wine & Spirits - Timisoreana Pale Lager (500ml) - $3.25 (approx. RON 15.40)\n3. Tower Wine & Spirits - Timisoreana Lager (500ml) - $2.99 (approx. RON 14.20)\n\nLet me know if you need further assistance!', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 116, 'prompt_tokens': 641, 'total_tokens': 757, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-11-20', 'system_fingerprint': 'fp_4dd9e4e381', 'finish_reason': 'stop', 'logprobs': None}, id='run-a1f93554-b407-435b-b641-d6050d3c0bc0-0', usage_metadata={'input_tokens': 641, 'output_tokens': 116, 'total_tokens': 757, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}))]}}
+----
+{'supervisor': {'response': 'FINISH'}}
+----
+Total Tokens: 16650
+Prompt Tokens: 6786
+Completion Tokens: 9864
+Total Cost (USD): $0.6422300000000001
+Query:how much does a timisoreana beer cost ?
+Reasoning model:o1-preview

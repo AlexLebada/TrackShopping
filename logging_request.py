@@ -1,1 +1,1 @@
-# here i should have the functiosn that keep track of application workflow
+# here i should have the debugging checkpoints that keep track of application workflow

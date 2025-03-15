@@ -1,0 +1,2 @@
+{'supervisor': {'plan': [Step(task='Retrieve and count all purchase records from Mega Image', agent='accountant')]}}
+----
